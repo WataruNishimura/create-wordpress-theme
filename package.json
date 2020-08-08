@@ -20,6 +20,8 @@
     "cac": "^6.6.1",
     "chalk": "^4.1.0",
     "fs": "0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "sao": "^1.7.1",
+    "validate-npm-package-name": "^3.0.0"
   }
 }
