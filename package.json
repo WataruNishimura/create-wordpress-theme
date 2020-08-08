@@ -1,0 +1,25 @@
+{
+  "name": "create-wordpress-theme",
+  "version": "1.0.0",
+  "description": "CLI application to create wordpress theme developping environment.",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WataruNishimura/create-wordpress-theme.git"
+  },
+  "author": "Wataru Nishimura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WataruNishimura/create-wordpress-theme/issues"
+  },
+  "homepage": "https://github.com/WataruNishimura/create-wordpress-theme#readme",
+  "dependencies": {
+    "cac": "^6.6.1",
+    "chalk": "^4.1.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
