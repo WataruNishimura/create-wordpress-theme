@@ -1,6 +1,6 @@
 {
   "name": "@nishimura_wataru/create-wordpress-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI application to create wordpress theme developping environment.",
   "bin": {
     "cli": "lib/cli.js"
