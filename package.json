@@ -1,8 +1,11 @@
 {
-  "name": "create-wordpress-theme",
+  "name": "@nishimura_wataru/create-wordpress-theme",
   "version": "1.0.0",
   "description": "CLI application to create wordpress theme developping environment.",
   "bin": "lib/cli.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
