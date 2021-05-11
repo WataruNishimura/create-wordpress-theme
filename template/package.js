@@ -15,11 +15,25 @@ module.exports = {
 
     if (!eslint) {
       delete pkg.devDependencies.eslint;
+    }
+
+    if (eslint && !prettier) {
       delete pkg.devDependencies['eslint-config-prettier'];
+    }
+
+    if (!prettier) {
+      delete pkg.devDependencies['prettier'];
+    }
+
+    if (stylelint && !scss) {
+      delete pkg.devDependencies['stylelint-scss'];
     }
 
     if (!stylelint) {
       delete pkg.devDependencies['stylelint'];
+      delete pkg.devDependencies['stylelint-config-standard'];
+      delete pkg.devDependencies['stylelint-config-wordpress'];
+      delete pkg.devDependencies['stylelint-scss'];
     }
 
     return pkg;
