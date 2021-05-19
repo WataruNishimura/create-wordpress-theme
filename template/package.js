@@ -11,7 +11,6 @@ module.exports = {
     const prettier = linter.includes('prettier');
     const stylelint = linter.includes('stylelint');
     const scss = stylesheet.includes('scss');
-    const css = stylesheet.includes('scss');
 
     if (!eslint) {
       delete pkg.devDependencies.eslint;
